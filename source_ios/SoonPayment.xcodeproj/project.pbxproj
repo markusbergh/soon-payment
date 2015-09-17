@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA74138E19008D330036EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138D19008D330036EC0F /* Foundation.framework */; };
+		DA74139019008D330036EC0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138F19008D330036EC0F /* CoreGraphics.framework */; };
+		DA74139219008D330036EC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74139119008D330036EC0F /* UIKit.framework */; };
+		DA74139819008D330036EC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA74139619008D330036EC0F /* InfoPlist.strings */; };
+		DA74139A19008D330036EC0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74139919008D330036EC0F /* main.m */; };
+		DA74139E19008D330036EC0F /* SoonPaymentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */; };
+		DA7413A119008D330036EC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA74139F19008D330036EC0F /* Main.storyboard */; };
+		DA7413A419008D330036EC0F /* SoonPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7413A319008D330036EC0F /* SoonPaymentViewController.m */; };
+		DA7413A619008D330036EC0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7413A519008D330036EC0F /* Images.xcassets */; };
+		DA7413AD19008D330036EC0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7413AC19008D330036EC0F /* XCTest.framework */; };
+		DA7413AE19008D330036EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138D19008D330036EC0F /* Foundation.framework */; };
+		DA7413AF19008D330036EC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74139119008D330036EC0F /* UIKit.framework */; };
+		DA7413B719008D330036EC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA7413B519008D330036EC0F /* InfoPlist.strings */; };
+		DA7413B919008D330036EC0F /* SoonPaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7413B819008D330036EC0F /* SoonPaymentTests.m */; };
+		DAE0D226190A9B20008CC2D6 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D224190A9B1B008CC2D6 /* SourceSansPro-BoldItalic.ttf */; };
+		DAE0D227190A9B20008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D225190A9B1B008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		DAE0D22A190A9B2A008CC2D6 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D228190A9B2A008CC2D6 /* Background.png */; };
+		DAE0D22B190A9B2A008CC2D6 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D229190A9B2A008CC2D6 /* Background@2x.png */; };
+		DAE0D22D190A9B30008CC2D6 /* Background-1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D22C190A9B30008CC2D6 /* Background-1136@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA7413B019008D330036EC0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA74138219008D330036EC0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA74138919008D330036EC0F;
+			remoteInfo = SoonPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA74138A19008D330036EC0F /* SoonPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoonPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA74138D19008D330036EC0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA74138F19008D330036EC0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA74139119008D330036EC0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA74139519008D330036EC0F /* SoonPayment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoonPayment-Info.plist"; sourceTree = "<group>"; };
+		DA74139719008D330036EC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA74139919008D330036EC0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA74139B19008D330036EC0F /* SoonPayment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoonPayment-Prefix.pch"; sourceTree = "<group>"; };
+		DA74139C19008D330036EC0F /* SoonPaymentAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoonPaymentAppDelegate.h; sourceTree = "<group>"; };
+		DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentAppDelegate.m; sourceTree = "<group>"; };
+		DA7413A019008D330036EC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA7413A219008D330036EC0F /* SoonPaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoonPaymentViewController.h; sourceTree = "<group>"; };
+		DA7413A319008D330036EC0F /* SoonPaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentViewController.m; sourceTree = "<group>"; };
+		DA7413A519008D330036EC0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA7413AB19008D330036EC0F /* SoonPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoonPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7413AC19008D330036EC0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA7413B419008D330036EC0F /* SoonPaymentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoonPaymentTests-Info.plist"; sourceTree = "<group>"; };
+		DA7413B619008D330036EC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA7413B819008D330036EC0F /* SoonPaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentTests.m; sourceTree = "<group>"; };
+		DAE0D224190A9B1B008CC2D6 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BoldItalic.ttf"; path = "Resources/Fonts/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DAE0D225190A9B1B008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "Resources/Fonts/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		DAE0D228190A9B2A008CC2D6 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Resources/Images/Background.png; sourceTree = "<group>"; };
+		DAE0D229190A9B2A008CC2D6 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background@2x.png"; path = "Resources/Images/Background@2x.png"; sourceTree = "<group>"; };
+		DAE0D22C190A9B30008CC2D6 /* Background-1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background-1136@2x.png"; path = "Resources/Images/Background-1136@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA74138719008D330036EC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA74139019008D330036EC0F /* CoreGraphics.framework in Frameworks */,
+				DA74139219008D330036EC0F /* UIKit.framework in Frameworks */,
+				DA74138E19008D330036EC0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7413A819008D330036EC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7413AD19008D330036EC0F /* XCTest.framework in Frameworks */,
+				DA7413AF19008D330036EC0F /* UIKit.framework in Frameworks */,
+				DA7413AE19008D330036EC0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA74138119008D330036EC0F = {
+			isa = PBXGroup;
+			children = (
+				DA74139319008D330036EC0F /* SoonPayment */,
+				DA7413B219008D330036EC0F /* SoonPaymentTests */,
+				DA74138C19008D330036EC0F /* Frameworks */,
+				DA74138B19008D330036EC0F /* Products */,
+				DA9E230419016A1B005AC24A /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		DA74138B19008D330036EC0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA74138A19008D330036EC0F /* SoonPayment.app */,
+				DA7413AB19008D330036EC0F /* SoonPaymentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA74138C19008D330036EC0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA74138D19008D330036EC0F /* Foundation.framework */,
+				DA74138F19008D330036EC0F /* CoreGraphics.framework */,
+				DA74139119008D330036EC0F /* UIKit.framework */,
+				DA7413AC19008D330036EC0F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA74139319008D330036EC0F /* SoonPayment */ = {
+			isa = PBXGroup;
+			children = (
+				DA74139C19008D330036EC0F /* SoonPaymentAppDelegate.h */,
+				DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */,
+				DA74139F19008D330036EC0F /* Main.storyboard */,
+				DA7413A219008D330036EC0F /* SoonPaymentViewController.h */,
+				DA7413A319008D330036EC0F /* SoonPaymentViewController.m */,
+				DA7413A519008D330036EC0F /* Images.xcassets */,
+				DA74139419008D330036EC0F /* Supporting Files */,
+			);
+			path = SoonPayment;
+			sourceTree = "<group>";
+		};
+		DA74139419008D330036EC0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA74139519008D330036EC0F /* SoonPayment-Info.plist */,
+				DA74139619008D330036EC0F /* InfoPlist.strings */,
+				DA74139919008D330036EC0F /* main.m */,
+				DA74139B19008D330036EC0F /* SoonPayment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA7413B219008D330036EC0F /* SoonPaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA7413B819008D330036EC0F /* SoonPaymentTests.m */,
+				DA7413B319008D330036EC0F /* Supporting Files */,
+			);
+			path = SoonPaymentTests;
+			sourceTree = "<group>";
+		};
+		DA7413B319008D330036EC0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7413B419008D330036EC0F /* SoonPaymentTests-Info.plist */,
+				DA7413B519008D330036EC0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9E230419016A1B005AC24A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0D228190A9B2A008CC2D6 /* Background.png */,
+				DAE0D229190A9B2A008CC2D6 /* Background@2x.png */,
+				DAE0D22C190A9B30008CC2D6 /* Background-1136@2x.png */,
+				DAE0D224190A9B1B008CC2D6 /* SourceSansPro-BoldItalic.ttf */,
+				DAE0D225190A9B1B008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA74138919008D330036EC0F /* SoonPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7413BC19008D340036EC0F /* Build configuration list for PBXNativeTarget "SoonPayment" */;
+			buildPhases = (
+				DA74138619008D330036EC0F /* Sources */,
+				DA74138719008D330036EC0F /* Frameworks */,
+				DA74138819008D330036EC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoonPayment;
+			productName = SoonPayment;
+			productReference = DA74138A19008D330036EC0F /* SoonPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA7413AA19008D330036EC0F /* SoonPaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7413BF19008D340036EC0F /* Build configuration list for PBXNativeTarget "SoonPaymentTests" */;
+			buildPhases = (
+				DA7413A719008D330036EC0F /* Sources */,
+				DA7413A819008D330036EC0F /* Frameworks */,
+				DA7413A919008D330036EC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA7413B119008D330036EC0F /* PBXTargetDependency */,
+			);
+			name = SoonPaymentTests;
+			productName = SoonPaymentTests;
+			productReference = DA7413AB19008D330036EC0F /* SoonPaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA74138219008D330036EC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SoonPayment;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Markus Bergh";
+				TargetAttributes = {
+					DA7413AA19008D330036EC0F = {
+						TestTargetID = DA74138919008D330036EC0F;
+					};
+				};
+			};
+			buildConfigurationList = DA74138519008D330036EC0F /* Build configuration list for PBXProject "SoonPayment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA74138119008D330036EC0F;
+			productRefGroup = DA74138B19008D330036EC0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA74138919008D330036EC0F /* SoonPayment */,
+				DA7413AA19008D330036EC0F /* SoonPaymentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA74138819008D330036EC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE0D226190A9B20008CC2D6 /* SourceSansPro-BoldItalic.ttf in Resources */,
+				DA7413A619008D330036EC0F /* Images.xcassets in Resources */,
+				DAE0D227190A9B20008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				DAE0D22D190A9B30008CC2D6 /* Background-1136@2x.png in Resources */,
+				DA74139819008D330036EC0F /* InfoPlist.strings in Resources */,
+				DAE0D22A190A9B2A008CC2D6 /* Background.png in Resources */,
+				DA7413A119008D330036EC0F /* Main.storyboard in Resources */,
+				DAE0D22B190A9B2A008CC2D6 /* Background@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7413A919008D330036EC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7413B719008D330036EC0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA74138619008D330036EC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA74139E19008D330036EC0F /* SoonPaymentAppDelegate.m in Sources */,
+				DA74139A19008D330036EC0F /* main.m in Sources */,
+				DA7413A419008D330036EC0F /* SoonPaymentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7413A719008D330036EC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7413B919008D330036EC0F /* SoonPaymentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA7413B119008D330036EC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA74138919008D330036EC0F /* SoonPayment */;
+			targetProxy = DA7413B019008D330036EC0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA74139619008D330036EC0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA74139719008D330036EC0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA74139F19008D330036EC0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7413A019008D330036EC0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA7413B519008D330036EC0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7413B619008D330036EC0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA7413BA19008D340036EC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markus Bergh (BM3YQ63A46)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA7413BB19008D340036EC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markus Bergh (BM3YQ63A46)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7413BD19008D340036EC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
+				INFOPLIST_FILE = "SoonPayment/SoonPayment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA7413BE19008D340036EC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
+				INFOPLIST_FILE = "SoonPayment/SoonPayment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA7413C019008D340036EC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoonPayment.app/SoonPayment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoonPaymentTests/SoonPaymentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA7413C119008D340036EC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoonPayment.app/SoonPayment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
+				INFOPLIST_FILE = "SoonPaymentTests/SoonPaymentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA74138519008D330036EC0F /* Build configuration list for PBXProject "SoonPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7413BA19008D340036EC0F /* Debug */,
+				DA7413BB19008D340036EC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7413BC19008D340036EC0F /* Build configuration list for PBXNativeTarget "SoonPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7413BD19008D340036EC0F /* Debug */,
+				DA7413BE19008D340036EC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7413BF19008D340036EC0F /* Build configuration list for PBXNativeTarget "SoonPaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7413C019008D340036EC0F /* Debug */,
+				DA7413C119008D340036EC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA74138219008D330036EC0F /* Project object */;
+}
