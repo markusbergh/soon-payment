@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8586E9161FC0CA6A005E5492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586E9151FC0CA6A005E5492 /* AppDelegate.swift */; };
+		8586E9361FC0CF65005E5492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586E9351FC0CF65005E5492 /* ViewController.swift */; };
 		DA74138E19008D330036EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138D19008D330036EC0F /* Foundation.framework */; };
 		DA74139019008D330036EC0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138F19008D330036EC0F /* CoreGraphics.framework */; };
 		DA74139219008D330036EC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74139119008D330036EC0F /* UIKit.framework */; };
-		DA74139819008D330036EC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA74139619008D330036EC0F /* InfoPlist.strings */; };
-		DA74139A19008D330036EC0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74139919008D330036EC0F /* main.m */; };
-		DA74139E19008D330036EC0F /* SoonPaymentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */; };
 		DA7413A119008D330036EC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA74139F19008D330036EC0F /* Main.storyboard */; };
-		DA7413A419008D330036EC0F /* SoonPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7413A319008D330036EC0F /* SoonPaymentViewController.m */; };
-		DA7413A619008D330036EC0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7413A519008D330036EC0F /* Images.xcassets */; };
+		DA7413A619008D330036EC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7413A519008D330036EC0F /* Assets.xcassets */; };
 		DA7413AD19008D330036EC0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7413AC19008D330036EC0F /* XCTest.framework */; };
 		DA7413AE19008D330036EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138D19008D330036EC0F /* Foundation.framework */; };
 		DA7413AF19008D330036EC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74139119008D330036EC0F /* UIKit.framework */; };
-		DA7413B719008D330036EC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA7413B519008D330036EC0F /* InfoPlist.strings */; };
 		DA7413B919008D330036EC0F /* SoonPaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7413B819008D330036EC0F /* SoonPaymentTests.m */; };
 		DAE0D226190A9B20008CC2D6 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D224190A9B1B008CC2D6 /* SourceSansPro-BoldItalic.ttf */; };
 		DAE0D227190A9B20008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE0D225190A9B1B008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf */; };
@@ -39,24 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8586E9151FC0CA6A005E5492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8586E9351FC0CF65005E5492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA74138A19008D330036EC0F /* SoonPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoonPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA74138D19008D330036EC0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA74138F19008D330036EC0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA74139119008D330036EC0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA74139519008D330036EC0F /* SoonPayment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoonPayment-Info.plist"; sourceTree = "<group>"; };
-		DA74139719008D330036EC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA74139919008D330036EC0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA74139B19008D330036EC0F /* SoonPayment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoonPayment-Prefix.pch"; sourceTree = "<group>"; };
-		DA74139C19008D330036EC0F /* SoonPaymentAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoonPaymentAppDelegate.h; sourceTree = "<group>"; };
-		DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentAppDelegate.m; sourceTree = "<group>"; };
+		DA74139519008D330036EC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7413A019008D330036EC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA7413A219008D330036EC0F /* SoonPaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoonPaymentViewController.h; sourceTree = "<group>"; };
-		DA7413A319008D330036EC0F /* SoonPaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentViewController.m; sourceTree = "<group>"; };
-		DA7413A519008D330036EC0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA7413A519008D330036EC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA7413AB19008D330036EC0F /* SoonPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoonPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7413AC19008D330036EC0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DA7413B419008D330036EC0F /* SoonPaymentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoonPaymentTests-Info.plist"; sourceTree = "<group>"; };
-		DA7413B619008D330036EC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7413B819008D330036EC0F /* SoonPaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoonPaymentTests.m; sourceTree = "<group>"; };
 		DAE0D224190A9B1B008CC2D6 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BoldItalic.ttf"; path = "Resources/Fonts/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
 		DAE0D225190A9B1B008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "Resources/Fonts/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -123,44 +113,21 @@
 		DA74139319008D330036EC0F /* SoonPayment */ = {
 			isa = PBXGroup;
 			children = (
-				DA74139C19008D330036EC0F /* SoonPaymentAppDelegate.h */,
-				DA74139D19008D330036EC0F /* SoonPaymentAppDelegate.m */,
+				8586E9151FC0CA6A005E5492 /* AppDelegate.swift */,
+				8586E9351FC0CF65005E5492 /* ViewController.swift */,
 				DA74139F19008D330036EC0F /* Main.storyboard */,
-				DA7413A219008D330036EC0F /* SoonPaymentViewController.h */,
-				DA7413A319008D330036EC0F /* SoonPaymentViewController.m */,
-				DA7413A519008D330036EC0F /* Images.xcassets */,
-				DA74139419008D330036EC0F /* Supporting Files */,
+				DA7413A519008D330036EC0F /* Assets.xcassets */,
+				DA74139519008D330036EC0F /* Info.plist */,
 			);
 			path = SoonPayment;
-			sourceTree = "<group>";
-		};
-		DA74139419008D330036EC0F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA74139519008D330036EC0F /* SoonPayment-Info.plist */,
-				DA74139619008D330036EC0F /* InfoPlist.strings */,
-				DA74139919008D330036EC0F /* main.m */,
-				DA74139B19008D330036EC0F /* SoonPayment-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DA7413B219008D330036EC0F /* SoonPaymentTests */ = {
 			isa = PBXGroup;
 			children = (
 				DA7413B819008D330036EC0F /* SoonPaymentTests.m */,
-				DA7413B319008D330036EC0F /* Supporting Files */,
 			);
 			path = SoonPaymentTests;
-			sourceTree = "<group>";
-		};
-		DA7413B319008D330036EC0F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA7413B419008D330036EC0F /* SoonPaymentTests-Info.plist */,
-				DA7413B519008D330036EC0F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DA9E230419016A1B005AC24A /* Resources */ = {
@@ -220,9 +187,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SoonPayment;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Markus Bergh";
 				TargetAttributes = {
+					DA74138919008D330036EC0F = {
+						LastSwiftMigration = 0910;
+					};
 					DA7413AA19008D330036EC0F = {
 						TestTargetID = DA74138919008D330036EC0F;
 					};
@@ -253,10 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE0D226190A9B20008CC2D6 /* SourceSansPro-BoldItalic.ttf in Resources */,
-				DA7413A619008D330036EC0F /* Images.xcassets in Resources */,
+				DA7413A619008D330036EC0F /* Assets.xcassets in Resources */,
 				DAE0D227190A9B20008CC2D6 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
 				DAE0D22D190A9B30008CC2D6 /* Background-1136@2x.png in Resources */,
-				DA74139819008D330036EC0F /* InfoPlist.strings in Resources */,
 				DAE0D22A190A9B2A008CC2D6 /* Background.png in Resources */,
 				DA7413A119008D330036EC0F /* Main.storyboard in Resources */,
 				DAE0D22B190A9B2A008CC2D6 /* Background@2x.png in Resources */,
@@ -267,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7413B719008D330036EC0F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA74139E19008D330036EC0F /* SoonPaymentAppDelegate.m in Sources */,
-				DA74139A19008D330036EC0F /* main.m in Sources */,
-				DA7413A419008D330036EC0F /* SoonPaymentViewController.m in Sources */,
+				8586E9361FC0CF65005E5492 /* ViewController.swift in Sources */,
+				8586E9161FC0CA6A005E5492 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,28 +270,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA74139619008D330036EC0F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA74139719008D330036EC0F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		DA74139F19008D330036EC0F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DA7413A019008D330036EC0F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DA7413B519008D330036EC0F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA7413B619008D330036EC0F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,19 +289,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markus Bergh (BM3YQ63A46)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -363,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -377,27 +340,39 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Markus Bergh (BM3YQ63A46)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -407,12 +382,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
-				INFOPLIST_FILE = "SoonPayment/SoonPayment-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = SoonPayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acey.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,12 +402,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Markus Bergh (57MDPUFGC8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
-				INFOPLIST_FILE = "SoonPayment/SoonPayment-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = SoonPayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acey.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -435,6 +419,7 @@
 		DA7413C019008D340036EC0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoonPayment.app/SoonPayment";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -448,6 +433,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SoonPaymentTests/SoonPaymentTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acey.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -457,6 +443,7 @@
 		DA7413C119008D340036EC0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoonPayment.app/SoonPayment";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -466,6 +453,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoonPayment/SoonPayment-Prefix.pch";
 				INFOPLIST_FILE = "SoonPaymentTests/SoonPaymentTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acey.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
