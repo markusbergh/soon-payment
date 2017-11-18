@@ -1,4 +1,4 @@
-Andreas Bergh
+Soon Payment
 =====================
 
 iOS application for telling user days left until pay day (25th)
