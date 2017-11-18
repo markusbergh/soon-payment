@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8586E9161FC0CA6A005E5492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586E9151FC0CA6A005E5492 /* AppDelegate.swift */; };
 		8586E9361FC0CF65005E5492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586E9351FC0CF65005E5492 /* ViewController.swift */; };
+		85C5B0821FC0EC1D00E61040 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5B0811FC0EC1D00E61040 /* LocalNotification.swift */; };
 		DA74138E19008D330036EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138D19008D330036EC0F /* Foundation.framework */; };
 		DA74139019008D330036EC0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74138F19008D330036EC0F /* CoreGraphics.framework */; };
 		DA74139219008D330036EC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74139119008D330036EC0F /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		8586E9151FC0CA6A005E5492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8586E9351FC0CF65005E5492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85C5B0811FC0EC1D00E61040 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		DA74138A19008D330036EC0F /* SoonPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoonPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA74138D19008D330036EC0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA74138F19008D330036EC0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 			children = (
 				8586E9151FC0CA6A005E5492 /* AppDelegate.swift */,
 				8586E9351FC0CF65005E5492 /* ViewController.swift */,
+				85C5B0811FC0EC1D00E61040 /* LocalNotification.swift */,
 				DA74139F19008D330036EC0F /* Main.storyboard */,
 				DA7413A519008D330036EC0F /* Assets.xcassets */,
 				DA74139519008D330036EC0F /* Info.plist */,
@@ -248,6 +251,7 @@
 			files = (
 				8586E9361FC0CF65005E5492 /* ViewController.swift in Sources */,
 				8586E9161FC0CA6A005E5492 /* AppDelegate.swift in Sources */,
+				85C5B0821FC0EC1D00E61040 /* LocalNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
